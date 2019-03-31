@@ -16,11 +16,10 @@ This repository includes a Unity project in the [UnityGratingShader](/UnityGrati
 - Copy the GratingShader.shader file into the Assets folder
 
 - Right click in the Assets directory, select: Create > Material 
-  ![new_material](docs/new_material.PNG)
+ ![new_material](docs/new_material.PNG)
 
 - Select the material and in the Inspector set the Shader to Custom/GratingPattern 
-
-- ![custom_shader](docs/custom_shader.PNG)
+ ![custom_shader](docs/custom_shader.PNG)
 
 ## GameObject mode
 
