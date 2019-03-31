@@ -9,7 +9,7 @@ A shader for Unity that generates moving grating patterns.
 
 # Useage
 
-This repository includes a Unity project in the (\UnityGratingShader\UnityGratingShader) folder, however to make use of the shader you only need the GratingShader.shader file from the Assets folder.
+This repository includes a Unity project in the [UnityGratingShader](/UnityGratingShader) folder, however to make use of the shader you only need the [GratingShader.shader](UnityGratingShader/Assets/GratingShader.shader) file from the Assets folder.
 
 - Start a Unity project or open an existing one
 - Copy the GratingShader.shader file into the Assets folder
