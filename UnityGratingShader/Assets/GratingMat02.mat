@@ -75,7 +75,7 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 0
+    - _Speed: 8.1
     - _Square: 0
     - _SrcBlend: 1
     - _UVSec: 0
