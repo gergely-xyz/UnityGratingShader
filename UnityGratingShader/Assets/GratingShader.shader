@@ -1,4 +1,4 @@
-﻿Shader "Custom/GratingShader"
+﻿Shader "Custom/GratingPattern"
 {
 	Properties
 	{
