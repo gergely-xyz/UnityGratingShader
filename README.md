@@ -1,7 +1,7 @@
 # UnityGratingShader
 A shader for Unity that generates moving grating patterns.
 
-![screenshot](docs\screenshot.PNG)
+![screenshot](docs/screenshot.PNG)
 
 # Requirements
 
@@ -13,15 +13,17 @@ This repository includes a Unity project in the (\UnityGratingShader\UnityGratin
 
 - Start a Unity project or open an existing one
 - Copy the GratingShader.shader file into the Assets folder
-- Right click in the Assets directory, select: Create > Material![new_material](docs\new_material.PNG)
-- Select the material and in the Inspector set the Shader to Custom/GratingPattern![custom_shader](docs\custom_shader.PNG)
+- Right click in the Assets directory, select: Create > Material 
+![new_material](docs/new_material.PNG)
+- Select the material and in the Inspector set the Shader to Custom/GratingPattern 
+![custom_shader](docs/custom_shader.PNG)
 - Apply this material to any GameObject that has a Mesh Renderer component
 
 # Customization
 
 You can customize how the grating pattern looks by selecting a Material that uses the GratingShader and changing its values in the inspector.
 
-![customization](docs\customization.PNG)
+![customization](docs/customization.PNG)
 
 - **Direction** controls which way the lines of the pattern are aligned (in degrees). 0 is completely horizontal with the lines moving from top to bottom. Increasing the value rotates the pattern clockwise.
 - **Speed** controls how fast the animation is playing. Note: The animation only plays while you are in play mode.
