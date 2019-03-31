@@ -12,12 +12,28 @@ A shader for Unity that generates moving grating patterns.
 This repository includes a Unity project in the [UnityGratingShader](/UnityGratingShader) folder, however to make use of the shader you only need the [GratingShader.shader](UnityGratingShader/Assets/GratingShader.shader) file from the Assets folder.
 
 - Start a Unity project or open an existing one
+
 - Copy the GratingShader.shader file into the Assets folder
+
 - Right click in the Assets directory, select: Create > Material 
-![new_material](docs/new_material.PNG)
+  ![new_material](docs/new_material.PNG)
+
 - Select the material and in the Inspector set the Shader to Custom/GratingPattern 
-![custom_shader](docs/custom_shader.PNG)
-- Apply this material to any GameObject that has a Mesh Renderer component
+
+- ![custom_shader](docs/custom_shader.PNG)
+
+## GameObject mode
+
+You can apply this material to any GameObject that has a Mesh Renderer component. 
+
+## Full screen mode
+
+To render a grating pattern such that it covers the whole screen:
+
+- Download the [FullScreenMaterial.cs](UnityGratingShader/Assets/FullScreenMaterial.cs) script
+- Put it in your Assets forlder
+- Select the Main Camera of your scene and drag the script onto the inspector
+- Choose a material you want to render as the Material property of the script
 
 # Customization
 
